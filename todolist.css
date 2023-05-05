@@ -1,0 +1,125 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  body {
+  font-family: arial;
+  background: #e0e0e0;
+}
+.container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+		background: white;
+		border-radius: 10px;
+
+border-radius: 38px;
+background: #e0e0e0;
+box-shadow:  6px -6px 8px #9d9d9d,
+             -6px 6px 8px #ffffff;
+}
+
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+} 
+#newtask input{
+    width: 75%;
+    height: 45px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;border-radius: 38px;
+background: #e0e0e0;
+box-shadow:  6px -6px 8px #9d9d9d,
+             -6px 6px 8px #ffffff;
+
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #0d75ec;
+    border-radius: 38px;
+    background: #e0e0e0;
+box-shadow:  6px -6px 8px #9d9d9d,
+             -6px 6px 8px #ffffff;
+
+}
+
+#newtask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+  border-radius: 30px;
+box-shadow:  6px -6px 8px #9d9d9d,
+             -6px 6px 8px #ffffff;
+}
+#tasks{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+border-radius: 38px;
+background: #e0e0e0;
+box-shadow:  6px -6px 8px #9d9d9d,
+             -6px 6px 8px #ffffff;
+}
+.task{
+    background-color: #c5e1e6;
+    height: 50px;
+		margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+		border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+border-radius: 30px;
+background: #e0e0e0;
+box-shadow:  6px -6px 8px #9d9d9d,
+             -6px 6px 8px #ffffff;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    background-color: #9e0808;
+    color: #fff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+border-radius: 38px;
+box-shadow:  6px -6px 8px #9d9d9d,
+             -6px 6px 8px #ffffff;
+}
+
+.completed{
+    text-decoration: line-through;
+}
